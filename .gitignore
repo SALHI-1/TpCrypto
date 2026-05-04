@@ -1,0 +1,49 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+.Python
+*.egg-info/
+dist/
+build/
+*.egg
+.env
+.venv
+env/
+venv/
+
+# ── LaTeX ────────────────────────────────────────────────
+*.aux
+*.log
+*.out
+*.toc
+*.lof
+*.lot
+*.fls
+*.fdb_latexmk
+*.synctex.gz
+*.bbl
+*.blg
+*.idx
+*.ind
+*.ilg
+*.nav
+*.snm
+*.vrb
+*.dvi
+*.xdv
+# Garder le .tex source mais ignorer le PDF compilé
+# (décommenter la ligne suivante si tu veux ignorer le PDF)
+# *.pdf
+
+# ── OS ───────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+
+# ── IDE ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
